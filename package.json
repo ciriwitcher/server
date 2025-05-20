@@ -1,21 +1,16 @@
 {
   "name": "Thornshield",
-  "productName": "Thornshield",
-  "description": "thornshield app",
-  "keywords": [],
-  "main": "./main.js",
   "version": "1.0.0",
-  "author": "robso",
+  "description": "Thornshield API server",
+  "main": "server.js",
   "scripts": {
-    "start": "electron ."
+    "start": "node server.js"
   },
+  "author": "robso",
   "dependencies": {
     "cors": "2.8.5",
     "express": "5.1.0",
-    "mongodb": "^6.16.0",
-    "pg": "8.16.0"
-  },
-  "devDependencies": {
-    "electron": "35.0.0"
+    "mongoose": "^7.0.0",
+    "mongodb": "^6.16.0"
   }
 }
